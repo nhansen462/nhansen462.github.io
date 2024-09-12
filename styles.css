@@ -1,0 +1,46 @@
+/* Tags */
+body {
+    background-color: rgb(248, 178, 248);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    float: clear;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Classes */
+
+
+/* IDs */
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(66, 204, 250);
+}
+
+#flex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+#flex #profilepic {
+    float: left;
+    width: 30%;
+}
+
+#flex #about {
+    float: right;
+    width: 70%;
+}
