@@ -15,3 +15,5 @@ if(isMorning){
 }else{
     welcomeMessage.textContent = 'Good Day!';
 }
+
+localStorage.setItem('It\'s a secret to everybody.', 'There are as many truths to the world as there are people to tell them. Find the truth that speaks to you.');
