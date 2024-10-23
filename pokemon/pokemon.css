@@ -1,0 +1,43 @@
+img {
+    display: inline;
+    width: 288px;
+    height: 288px;
+    border-style: none;
+}
+
+p {
+    display: inline;
+}
+
+h1 {
+    display: inline;
+}
+
+div {
+    padding: 10px;
+}
+
+/*Grid Containers*/
+#item1 { grid-area: name; text-align: center; vertical-align: middle;}
+#item2 { grid-area: image; }
+#item3 { grid-area: type; }
+#item4 { grid-area: type1; }
+#item5 { grid-area: type2; }
+
+#gc {
+    display: grid;
+    margin:auto;
+    text-align: center;
+    grid-template-areas:
+    'name name name name'
+    'image image image image'
+    'type type type type'
+    'type1 type1 type2 type2';
+}
+
+#gc > div {
+    display: inline;
+    border-style: solid;
+    border-color: rgb(47, 248, 255);
+    border-width: 1px;
+}
